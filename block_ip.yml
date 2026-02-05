@@ -1,0 +1,12 @@
+---
+- name: Block Attacker IP on Target VM
+  hosts: target
+  become: yes
+
+  tasks:
+    - name: Block IP using iptables
+      ansible.builtin.iptables:
+        chain: INPUT
+        source: "{{ ip }}"
+        jump: DROP
+        state: present
