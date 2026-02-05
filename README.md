@@ -1,4 +1,4 @@
-# SOC & SOAR Automation Platform (SIEM + Automated Response)
+# Cloud Native SOC Automation Platform (SIEM + SOAR)
 
 An end‑to‑end **Cyber Security SOC & SOAR automation project** that detects security incidents using **SIEM (ELK Stack)** and performs **automated incident response** using **Python and Ansible**.
 
@@ -131,3 +131,4 @@ Virtual Machines (VMware / VirtualBox)
 - Run the Python SOAR script (or schedule via cron).
   
 - Verify that the attacker IP is automatically blocked.
+
