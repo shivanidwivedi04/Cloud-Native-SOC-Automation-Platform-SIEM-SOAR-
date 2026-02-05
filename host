@@ -1,2 +1,0 @@
-[target]
-192.168.10.101 ansible_user=shivani ansible_ssh_pass=ditiss ansible_become_pass=ditiss
