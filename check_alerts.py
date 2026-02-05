@@ -4,9 +4,9 @@ import os
 import re
 
 # Elasticsearch details
-ES = "http://192.168.10.102:9200"
-USER = "elastic"
-PASS = "Eu950PG2NZ359e*eHlAe"
+ES = "http://192.168.xx.xx:9200"
+USER = "elastic_username"
+PASS = "elasticuser_password"
 
 # Elasticsearch query for SSH failed logins
 query = {
