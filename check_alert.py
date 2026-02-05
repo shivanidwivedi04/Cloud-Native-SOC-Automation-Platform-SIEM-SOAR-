@@ -4,16 +4,16 @@ import os
 import re
 
 # ================= CONFIG =================
-ES = "http://192.168.10.102:9200"
-USER = "elastic"
-PASS = "Eu950PG2NZ359e*eHlAe"
+ES = "http://192.168.xx.xx:9200"
+USER = "elastic_username"
+PASS = ""
 
 RULE_KEYWORD = "SSH"
 TIME_WINDOW = "now-15m"
 
 WHITELIST = [
-    "192.168.10.103",  # Automation VM
-    "192.168.10.128"   # Kali VM
+    "192.168.xx.xx",  # Automation VM
+    "192.168.xx.xx"   # Kali VM
 ]
 # ==========================================
 
